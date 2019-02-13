@@ -1,0 +1,63 @@
+var workshop_data =
+    [
+        {
+            "Group": "IQSS Data Science Services",
+            "Tags": "R; Python; Stata; Jupyter; HT Condor; RCE; Jupyter Notebooks",
+            "Location": "<a href=https://github.com/iqss/workshops/'> github.com/iqss/workshops/ </a>"
+        },
+        {
+            "Group": "Harvard FAS Informatics",
+            "Tags": "R; Python; Visualization; Genomics; Sequencing",
+            "Location": "<a href='https://informatics.fas.harvard.edu/category/tutorials.html'> informatics.fas.harvard.edu/category/tutorials.html </a>"
+        },
+        {
+            "Group": "Harvard FAS Informatics",
+            "Tags": "_",
+            "Location": "<a href='https://informatics.fas.harvard.edu/workshops/'> informatics.fas.harvard.edu/workshops/ </a>"
+        },
+        {
+            "Group": "HMS Research Imaging",
+            "Tags": "_",
+            "Location": "<a href='http://itwebresources.hms.harvard.edu/RISresources/'> itwebresources.hms.harvard.edu/RISresources/ </a>"
+        },
+        {
+            "Group": "HMS Research Computing",
+            "Tags": "_",        
+            "Location": "<a href='https://github.com/hmsrc/user-training'> github.com/hmsrc/user-training </a>"
+        },
+        {
+            "Group": "HMS Research Computing",
+            "Tags": "_",        
+            "Location": "<a href='https://wiki.rc.hms.harvard.edu:8443/display/O2/User+Training'> wiki.rc.hms.harvard.edu:8443/display/O2/User+Training </a>"
+        },
+        {
+            "Group": "John Hansen",
+            "Tags": "_",        
+            "Location": "<a href='https://its.gse.harvard.edu/research/workshops'> its.gse.harvard.edu/research/workshops </a>"
+        },
+        {
+            "Group": "Harvard Chan Bioinformatics Core",
+            "Tags": "_",        
+            "Location": "<a href='https://github.com/hbctraining'> github.com/hbctraining </a>"
+        },
+        {
+            "Group": "Wolbach Library - Center for Astrophysics",
+            "Tags": "_",        
+            "Location": "<a href='https://github.com/CfA-Library/Training'> github.com/CfA-Library/Training </a>"
+        },
+        {
+            "Group": "Wolbach Library - Center for Astrophysics",
+            "Tags": "_",        
+            "Location": "<a href='https://github.com/CfA-Library/Collaborations'> github.com/CfA-Library/Collaborations </a>"
+        },
+        {
+            "Group": "Digital History / Digital Scholarship Support Group",
+            "Tags": "_",        
+            "Location": "<a href='https://github.com/artshumrc/python-web-apis'> github.com/artshumrc/python-web-apis </a>"
+        },
+        {
+            "Group": "Digital History / Digital Scholarship Support Group",
+            "Tags": "_",        
+            "Location": "<a href='https://github.com/artshumrc/d3-workshop'> github.com/artshumrc/d3-workshop </a>"
+        }
+    ]

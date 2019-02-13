@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="generator" content="pandoc" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+        <title>Research Computing Training Materials at Harvard</title>
+
+        <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.18/css/dataTables.foundation.css"/>
+        <link rel="stylesheet" type="text/css" href=" https://cdn.datatables.net/1.10.19/css/jquery.dataTables.min.css"/>     
+        <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.js"></script>
+        <script type="text/javascript" src="https://cdn.datatables.net/1.10.18/js/jquery.dataTables.js"></script>
+        <script type="text/javascript" src="https://cdn.datatables.net/1.10.18/js/dataTables.foundation.js"></script>
+        <script type="text/javascript" src="./workshop_materials_list.json"></script>
+
+        <script type ="text/javascript">
+         $(document).ready(function() {
+             $('#materials_table').DataTable( {
+                 paging: false,
+                 data: workshop_data,
+                 columns: [
+                     { data: "Group", title: "Group" },
+                     { data: "Tags", title: "Tags" },
+                     { data: "Location", title: "Location" },
+                 ],
+                 "columnDefs": [
+                     { "width": "20%", "targets": 1 }
+                 ]
+             } );
+         } );
+        </script>
+        
+        <style>
+         code{white-space: pre-wrap;}
+         span.smallcaps{font-variant: small-caps;}
+         span.underline{text-decoration: underline;}
+         div.column{display: inline-block; vertical-align: top; width: 50%;}
+        </style>
+        <!--[if lt IE 9]>
+            <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+        <![endif]-->
+    </head>
+    
+    <body>
+        <h1> Research Computing Training Materials at Harvard </h1>
+        <p>
+            This table lists research computing training materials at harvard.
+            To add or modify a training materials resource, edit <code>workshop_materials_list.json</code>.
+        </p>
+        <table id="materials_table" class="display" width="100%">
+        </table>
+    </body>
+</html>

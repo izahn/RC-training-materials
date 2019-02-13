@@ -1,0 +1,1 @@
+This repository contains the code for the *Research Computing Training Materials at Harvard* web page. To add or modify a training materials resource, edit `workshop_materials_list.json` and submit a pull request, or simply open an issue and we'll add it for you.
