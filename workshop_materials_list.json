@@ -3,7 +3,7 @@ var workshop_data =
         {
             "Group": "IQSS Data Science Services",
             "Tags": "R; Python; Stata; Jupyter; HT Condor; RCE; Jupyter Notebooks",
-            "Location": "<a href=https://github.com/iqss/workshops/'> github.com/iqss/workshops/ </a>"
+            "Location": "<a href='https://github.com/iqss/workshops/'> github.com/iqss/workshops/ </a>"
         },
         {
             "Group": "Harvard FAS Informatics",
