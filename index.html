@@ -19,9 +19,17 @@
                  paging: false,
                  data: workshop_data,
                  columns: [
-                     { data: "Group", title: "Group" },
-                     { data: "Tags", title: "Tags" },
-                     { data: "Location", title: "Location" },
+                     { data: "Group",
+                       title: "Group" },
+                     { data: "Tags",
+                       title: "Tags" },
+                     { data: "Location",
+                       title: "Location",
+                       render: function ( data, type, row ) {
+                           x = data;
+                           return "<a href = '" + data + "'>" + data + "</a>";
+                       }
+                     },
                  ],
                  "columnDefs": [
                      { "width": "20%", "targets": 1 }
