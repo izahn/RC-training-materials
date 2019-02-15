@@ -22,11 +22,15 @@
                      { data: "Group",
                        title: "Group" },
                      { data: "Tags",
-                       title: "Tags" },
+                       title: "Tags",
+                       render: function(data, type, row) {
+                           foo = data;
+                           return data.split(";").map(x => x.trim()).sort().join("; ");
+                       }
+                     },
                      { data: "Location",
                        title: "Location",
-                       render: function ( data, type, row ) {
-                           x = data;
+                       render: function (data, type, row) {
                            return "<a href = '" + data + "'>" + data + "</a>";
                        }
                      },
